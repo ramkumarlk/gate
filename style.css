@@ -1,0 +1,124 @@
+header {
+	text-align: center;
+	color: white;
+	background-color: lightgreen ;
+	background-image: url(../images/header-bg.jpg);
+	height: 500px;
+	background-position: center;
+	background-size: cover no-repeat; 
+	padding-top : 100px ;
+}
+header p {
+	font-style: italic;
+}
+header h1 h2 h3 h4 h5 {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+header a {
+	border: 5px solid white ;
+	font-family: 'Montserrat', sans-serif;
+	color: white ;
+	padding: 10px 40px ;
+	text-decoration: none ;
+}
+
+header a:hover {
+	background: white;
+	color: black;
+}
+
+.btn {
+	border: 5px solid black ;
+	font-family: 'Montserrat', sans-serif;
+	color: black ;
+	padding: 10px 40px ;
+	text-decoration: none ;
+}
+.btn:hover {
+	background: black;
+	color: white;
+}
+header h1 {
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 13px; 
+	color: green ;
+}
+
+header h1 {
+	color: white;
+}
+
+/* Hello This is a Comment*/
+body {
+	color: red;
+	margin: 0px ; 
+
+}
+
+nav ul li {
+	display: inline;
+}
+nav a {
+	padding: 20px;
+	text-decoration: none ; 
+	font-family: 'Montserrat';
+	color: black ;
+}
+
+.logo {
+	color: red;
+	margin-right: 130px ;
+	padding: 12px ; 
+}
+
+.logo:hover {
+	background: black;
+	border-color: blue;
+
+}
+.categories {
+	text-align: center;
+}
+
+.categories ul li {
+	width: 20% ;
+	padding: 0 1%;
+	float: left;
+	list-style: none;
+}
+.categories img {
+	max-width: 100%;
+}
+
+
+
+.featured {
+	text-align: center;
+}
+.featured ul li {
+	width: 25%;
+	padding: 0 1% ;
+	float: left ;
+	list-style: none;
+}
+.featured img {
+	max-width: 100%;
+}
+.featured {
+	clear: both;
+	padding-top: 5% 10%;
+}
+
+.quotes {
+	padding-top: 15%;
+}
+
+.footer {
+	clear: both;
+	text-align: center;
+	background: black;
+	color: white;
+}
